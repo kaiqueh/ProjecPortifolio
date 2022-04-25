@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Portifolio</title>
+</head>
+
+<body>
+
+    <header class="profile container">
+        <!-- Theme button -->
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+        <div class="profile__container grid">
+            <div class="profile__data">
+                <div class="profile__border">
+                    <div class="profile__perfil">
+
+                        <img src="assets/img/perfil.png" alt="">
+                    </div>
+                </div>
+
+                <h2 class="profile__name">Kaique Reis</h2>
+                <h3 class="profile__profession">Web developer</h3>
+
+                <ul class="profile__social">
+                    <a href="https://www.instagram.com/kaique_reisz/" target="_blank" class="profile__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/kaique-reis-1aa914208/" target="_blank"
+                        class="profile__social-link">
+                        <i class="ri-linkedin-box-line"></i>
+                    </a>
+                    <a href="https://github.com/kaiqueh" target="_blank" class="profile__social-link">
+                        <i class="ri-github-line"></i>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="profile__info grid">
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">3</h3>
+                    <p class="profile__info-description">
+                        Anos <br> Estudando
+                    </p>
+                </div>
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">4</h3>
+                    <p class="profile__info-description">
+                        Projetos <br> Completos
+                    </p>
+                </div>
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">1</h3>
+                    <p class="profile__info-description">Clientes<br>satisfeito</p>
+                </div>
+            </div>
+
+            <div class="profile__buttons">
+
+                <a download="" href="assets/pdf/CV Kaique Oliveira dos Reis..pdf" class="button">
+                    Download CV <i class="ri-download-line"></i>
+                </a>
+
+                <div class="profile__buttons-small">
+
+                    <a href="https://api.whatsapp.com/send?phone=5511967335206&text=Ola!"
+                        target="_blank" class="button button__small button__gray">
+                        <i class="ri-whatsapp-line"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/profile.php?id=100022703504859" target="_blank" class="button button__small button__gray">
+                        <i class="ri-messenger-line"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main class="main">
+        <section class="filters container">
+
+            <ul class="filters__content">
+                <button class="filters__button" data-target="#projects">
+                    Projetos
+                </button>
+                <button class="filters__button" data-target="#skills">
+                    skills
+                </button>
+
+            </ul>
+            <div class="filters__sections">
+
+                <div class="projects__content grid filters__active" data-content id="projects">
+                    <article class="projects__card">
+
+                        <img src="assets/img/Calculadora.png" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h3 class="projects__title">Calculadora</h3>
+                                <a href="https://kaiqueh.github.io/calculator/" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/IMC.png" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Web</span>
+                                <h3 class="projects__title">Calculadora De Índice de massa corpórea</h3>
+                                <a href="https://kaiqueh.github.io/IMC/" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- <article class="projects__card">
+                        <img src="assets/img/project3.jpg" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Movil</span>
+                                <h3 class="projects__title">Fast food app</h3>
+                                <a href="#" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/project4.jpg" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Movil</span>
+                                <h3 class="projects__title">Travel app</h3>
+                                <a href="#" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/project5.jpg" alt="" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Design</span>
+                                <h3 class="projects__title">Music app design</h3>
+                                <a href="#" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article> -->
+                </div> 
+
+
+                <div class="skills__content grid" data-content id="skills">
+                    <div class="skills__area">
+                        <h3 class="skills__title">Frontend Developer</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__level">Intermediario</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__level">Básico/intermediario</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">C++</h3>
+                                        <span class="skills__level">Básico/intermediario</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">JavaScript</h3>
+                                        <span class="skills__level">Intermediario</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">C</h3>
+                                        <span class="skills__level">Básico/Intermediario</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Java</h3>
+                                        <span class="skills__level">Basic/Intermediario</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Git</h3>
+                                        <span class="skills__level">Intermediario</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__area">
+                        <h3 class="skills__title">Backend Developer</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">PHP</h3>
+                                        <span class="skills__level">Basico</span>
+                                    </div>
+                                </div>
+
+                                <!-- <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i> -->
+
+                                    <!-- <div>
+                                        <h3 class="skills__name">JavaScript</h3>
+                                        <span class="skills__level">intermediario</span>
+                                    </div>
+                                </div> -->
+
+                                <!-- <div class="skills__data"> 
+                                    <i class="ri-checkbox-circle-line"></i> 
+
+                                    <div>
+                                        <h3 class="skills__name">Firebase</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div> -->
+                            </div>
+
+                            <!-- <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                        <h3 class="skills__name">Python</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div> -->
+
+                                <!-- <div class="skills__data">
+                                    <i class="ri-checkbox-circle-line"></i>
+
+                                    <div>
+                                         <h3 class="skills__name">Node Js</h3> 
+                                        <span class="skills__level">Intermediate</span> 
+                                    </div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+ 
+
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
