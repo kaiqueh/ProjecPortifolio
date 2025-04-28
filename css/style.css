@@ -136,6 +136,7 @@ section.active {
 }
 
 .home-detail h2 {
+  position: relative;
   display: inline-block;
   font-size: 3.2rem;
   margin-top: -1rem;
@@ -143,6 +144,7 @@ section.active {
 
 .home-detail h2 span {
   position: absolute;
+  left: 4.5rem;
   display: inline-block;
   color: transparent;
   -webkit-text-stroke: 0.07rem var(--main-color);
