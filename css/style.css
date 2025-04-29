@@ -703,13 +703,7 @@ section.active {
   }
 }
 @media screen and (max-width: 400px) {
-  /* .home-detail,
-  .resume-box h2,
-  .resume-box .heading,
-  .resume-box .desc,
-  .resume-detail.about .resume-item {
-    text-align: center;
-  } */
+
 
   .home-detail .btn-sci {
     flex-direction: column-reverse;
