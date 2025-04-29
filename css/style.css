@@ -144,13 +144,14 @@ section.active {
 
 .home-detail h2 span {
   position: absolute;
-  left: 4.5rem;
+  left: 6rem; /* Ajuste conforme necessário */
   display: inline-block;
   color: transparent;
   -webkit-text-stroke: 0.07rem var(--main-color);
   opacity: 0;
   animation: display-text 16s linear infinite;
   animation-delay: calc(-4s * var(--i));
+  white-space: nowrap; /* Garante que o texto não quebre para a próxima linha */
 }
 
 @keyframes display-text {
@@ -702,13 +703,13 @@ section.active {
   }
 }
 @media screen and (max-width: 400px) {
-  .home-detail,
+  /* .home-detail,
   .resume-box h2,
   .resume-box .heading,
   .resume-box .desc,
   .resume-detail.about .resume-item {
     text-align: center;
-  }
+  } */
 
   .home-detail .btn-sci {
     flex-direction: column-reverse;
