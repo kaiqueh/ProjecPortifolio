@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "home": "Home",
+    "resume": "Resumo",
+    "portfolio": "Portfólio",
+    "contact": "Contato"
+  },
+  "home": {
+    "greeting": "Eu sou",
+    "downloadCv": "Baixar CV"
+  },
+  "resume": {
+    "title": "Quem sou eu?",
+    "subtitle": "Conheça um pouco mais sobre minha trajetória, experiências e objetivos profissionais.",
+    "tabs": {
+      "experience": "Experiência",
+      "education": "Educação",
+      "skills": "Skills",
+      "about": "Sobre mim"
+    },
+    "experience": {
+      "heading": "Minha",
+      "headingHighlight": "Experiência"
+    },
+    "education": {
+      "heading": "Minha",
+      "headingHighlight": "Educação"
+    },
+    "skills": {
+      "heading": "Minhas",
+      "headingHighlight": "Skills"
+    },
+    "about": {
+      "heading": "Sobre",
+      "headingHighlight": "Mim",
+      "labels": {
+        "name": "Nome",
+        "gender": "Gênero",
+        "age": "Idade",
+        "maritalStatus": "Estado Civil",
+        "city": "Cidade",
+        "nationality": "Nacionalidade",
+        "phone": "Telefone"
+      }
+    }
+  },
+  "portfolio": {
+    "heading": "Últimos",
+    "headingHighlight": "Projetos",
+    "liveProject": "Live Project",
+    "githubRepo": "GitHub repository"
+  },
+  "contact": {
+    "title": "Dados de Contato",
+    "formHeading": "Fale",
+    "formHeadingHighlight": "comigo",
+    "labels": {
+      "phone": "Telefone",
+      "email": "Email"
+    },
+    "form": {
+      "name": "Nome",
+      "email": "Email",
+      "phone": "Telefone",
+      "subject": "Assunto",
+      "message": "Mensagem",
+      "send": "Enviar Mensagem"
+    }
+  }
+}
