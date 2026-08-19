@@ -1,70 +1,96 @@
 {
   "nav": {
     "home": "Home",
-    "resume": "Resumo",
-    "portfolio": "Portfólio",
-    "contact": "Contato"
+    "about": "Sobre mim",
+    "projects": "Projetos",
+    "contact": "Contato",
+    "openMenu": "Abrir menu de navegação",
+    "closeMenu": "Fechar menu de navegação",
+    "language": "Idioma",
+    "switchToPt": "Mudar para português",
+    "switchToEn": "Mudar para inglês",
+    "current": "Página atual"
+  },
+  "sections": {
+    "home": "01 — HOME",
+    "about": "02 — SOBRE MIM",
+    "projects": "03 — PROJETOS",
+    "contact": "04 — CONTATO"
   },
   "home": {
-    "greeting": "Eu sou",
-    "downloadCv": "Baixar CV"
+    "cv": "Baixar currículo (PDF)",
+    "scroll": "ROLE PARA CONHECER O TRABALHO",
+    "explore": "NAVEGUE PELO PORTFÓLIO",
+    "aboutDesc": "Trajetória, competências, formação e forma de trabalho.",
+    "projectsDesc": "Lista de projetos com tecnologias, status e detalhes técnicos.",
+    "contactDesc": "E-mail profissional, formulário e redes profissionais."
   },
-  "resume": {
-    "title": "Quem sou eu?",
-    "subtitle": "Conheça um pouco mais sobre minha trajetória, experiências e objetivos profissionais.",
-    "tabs": {
-      "experience": "Experiência",
-      "education": "Educação",
-      "skills": "Skills",
-      "about": "Sobre mim"
-    },
-    "experience": {
-      "heading": "Minha",
-      "headingHighlight": "Experiência"
-    },
-    "education": {
-      "heading": "Minha",
-      "headingHighlight": "Educação"
-    },
-    "skills": {
-      "heading": "Minhas",
-      "headingHighlight": "Skills"
-    },
-    "about": {
-      "heading": "Sobre",
-      "headingHighlight": "Mim",
-      "labels": {
-        "name": "Nome",
-        "gender": "Gênero",
-        "age": "Idade",
-        "maritalStatus": "Estado Civil",
-        "city": "Cidade",
-        "nationality": "Nacionalidade",
-        "phone": "Telefone"
-      }
-    }
+  "about": {
+    "path": "TRAJETÓRIA PROFISSIONAL",
+    "skills": "COMPETÊNCIAS TÉCNICAS",
+    "way": "FORMA DE TRABALHO",
+    "education": "FORMAÇÃO E CERTIFICAÇÕES",
+    "goals": "OBJETIVOS PROFISSIONAIS"
   },
-  "portfolio": {
-    "heading": "Últimos",
-    "headingHighlight": "Projetos",
-    "liveProject": "Live Project",
-    "githubRepo": "GitHub repository"
+  "projects": {
+    "all": "Todos",
+    "filterLabel": "Filtrar projetos por categoria",
+    "details": "Ver detalhes",
+    "repo": "Repositório",
+    "live": "Aplicação",
+    "empty": "Nenhum projeto cadastrado nesta categoria.",
+    "imagePlaceholder": "IMAGEM DO PROJETO"
+  },
+  "projectDetail": {
+    "back": "Voltar para a lista",
+    "context": "CONTEXTO",
+    "role": "PARTICIPAÇÃO",
+    "architecture": "TECNOLOGIAS E ARQUITETURA",
+    "structure": "ARQUITETURA",
+    "integrations": "INTEGRAÇÕES",
+    "deploy": "DEPLOY",
+    "features": "FUNCIONALIDADES",
+    "challenges": "DESAFIOS E SOLUÇÕES",
+    "challenge": "DESAFIO",
+    "solution": "SOLUÇÃO",
+    "results": "RESULTADOS",
+    "ai": "USO DE INTELIGÊNCIA ARTIFICIAL",
+    "aiTools": "FERRAMENTAS E ETAPAS",
+    "aiReview": "REVISÃO E DECISÕES",
+    "gallery": "GALERIA",
+    "notFound": "Projeto não encontrado.",
+    "backToProjects": "Ver todos os projetos"
   },
   "contact": {
-    "title": "Dados de Contato",
-    "formHeading": "Fale",
-    "formHeadingHighlight": "comigo",
-    "labels": {
-      "phone": "Telefone",
-      "email": "Email"
-    },
+    "emailLabel": "E-MAIL PROFISSIONAL",
+    "copy": "Copiar",
+    "copied": "Copiado",
+    "copyEmail": "Copiar endereço de e-mail",
+    "availability": "DISPONIBILIDADE",
+    "privacy": "PRIVACIDADE",
+    "networks": "REDES PROFISSIONAIS",
     "form": {
+      "title": "FORMULÁRIO DE CONTATO",
       "name": "Nome",
-      "email": "Email",
-      "phone": "Telefone",
+      "namePlaceholder": "Como devo te chamar",
+      "email": "E-mail",
+      "emailPlaceholder": "nome@dominio.com",
       "subject": "Assunto",
+      "subjectPlaceholder": "Sobre o que quer falar",
       "message": "Mensagem",
-      "send": "Enviar Mensagem"
+      "messagePlaceholder": "Escreva sua mensagem",
+      "send": "Enviar mensagem",
+      "sending": "Enviando...",
+      "required": "Campo obrigatório",
+      "invalidEmail": "Informe um e-mail válido",
+      "success": "Mensagem enviada. Retorno em breve.",
+      "error": "Não foi possível enviar. Tente novamente ou use o e-mail.",
+      "notConfigured": "Envio indisponível no momento. Use o e-mail profissional."
     }
+  },
+  "notFound": {
+    "title": "Página não encontrada",
+    "description": "O endereço acessado não existe ou foi movido.",
+    "action": "Voltar para a Home"
   }
 }

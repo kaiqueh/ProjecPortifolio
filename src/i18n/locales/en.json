@@ -1,70 +1,96 @@
 {
   "nav": {
     "home": "Home",
-    "resume": "Resume",
-    "portfolio": "Portfolio",
-    "contact": "Contact"
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu",
+    "language": "Language",
+    "switchToPt": "Switch to Portuguese",
+    "switchToEn": "Switch to English",
+    "current": "Current page"
+  },
+  "sections": {
+    "home": "01 — HOME",
+    "about": "02 — ABOUT",
+    "projects": "03 — PROJECTS",
+    "contact": "04 — CONTACT"
   },
   "home": {
-    "greeting": "I'm",
-    "downloadCv": "Download CV"
+    "cv": "Download CV (PDF)",
+    "scroll": "SCROLL TO SEE THE WORK",
+    "explore": "BROWSE THE PORTFOLIO",
+    "aboutDesc": "Background, skills, education and ways of working.",
+    "projectsDesc": "Project list with technologies, status and technical details.",
+    "contactDesc": "Professional email, contact form and professional networks."
   },
-  "resume": {
-    "title": "Who am I?",
-    "subtitle": "Learn a little more about my trajectory, experiences and professional goals.",
-    "tabs": {
-      "experience": "Experience",
-      "education": "Education",
-      "skills": "Skills",
-      "about": "About me"
-    },
-    "experience": {
-      "heading": "My",
-      "headingHighlight": "Experience"
-    },
-    "education": {
-      "heading": "My",
-      "headingHighlight": "Education"
-    },
-    "skills": {
-      "heading": "My",
-      "headingHighlight": "Skills"
-    },
-    "about": {
-      "heading": "About",
-      "headingHighlight": "Me",
-      "labels": {
-        "name": "Name",
-        "gender": "Gender",
-        "age": "Age",
-        "maritalStatus": "Marital Status",
-        "city": "City",
-        "nationality": "Nationality",
-        "phone": "Phone"
-      }
-    }
+  "about": {
+    "path": "PROFESSIONAL BACKGROUND",
+    "skills": "TECHNICAL SKILLS",
+    "way": "WAYS OF WORKING",
+    "education": "EDUCATION AND CERTIFICATIONS",
+    "goals": "PROFESSIONAL GOALS"
   },
-  "portfolio": {
-    "heading": "Latest",
-    "headingHighlight": "Projects",
-    "liveProject": "Live Project",
-    "githubRepo": "GitHub repository"
+  "projects": {
+    "all": "All",
+    "filterLabel": "Filter projects by category",
+    "details": "View details",
+    "repo": "Repository",
+    "live": "Live app",
+    "empty": "No projects listed in this category.",
+    "imagePlaceholder": "PROJECT IMAGE"
+  },
+  "projectDetail": {
+    "back": "Back to list",
+    "context": "CONTEXT",
+    "role": "MY ROLE",
+    "architecture": "TECHNOLOGIES AND ARCHITECTURE",
+    "structure": "ARCHITECTURE",
+    "integrations": "INTEGRATIONS",
+    "deploy": "DEPLOY",
+    "features": "FEATURES",
+    "challenges": "CHALLENGES AND SOLUTIONS",
+    "challenge": "CHALLENGE",
+    "solution": "SOLUTION",
+    "results": "RESULTS",
+    "ai": "USE OF ARTIFICIAL INTELLIGENCE",
+    "aiTools": "TOOLS AND STAGES",
+    "aiReview": "REVIEW AND DECISIONS",
+    "gallery": "GALLERY",
+    "notFound": "Project not found.",
+    "backToProjects": "See all projects"
   },
   "contact": {
-    "title": "Contact Info",
-    "formHeading": "Contact",
-    "formHeadingHighlight": "me",
-    "labels": {
-      "phone": "Phone",
-      "email": "Email"
-    },
+    "emailLabel": "PROFESSIONAL EMAIL",
+    "copy": "Copy",
+    "copied": "Copied",
+    "copyEmail": "Copy email address",
+    "availability": "AVAILABILITY",
+    "privacy": "PRIVACY",
+    "networks": "PROFESSIONAL NETWORKS",
     "form": {
+      "title": "CONTACT FORM",
       "name": "Name",
+      "namePlaceholder": "What should I call you",
       "email": "Email",
-      "phone": "Phone",
+      "emailPlaceholder": "name@domain.com",
       "subject": "Subject",
+      "subjectPlaceholder": "What would you like to talk about",
       "message": "Message",
-      "send": "Send Message"
+      "messagePlaceholder": "Write your message",
+      "send": "Send message",
+      "sending": "Sending...",
+      "required": "Required field",
+      "invalidEmail": "Enter a valid email address",
+      "success": "Message sent. I will get back to you soon.",
+      "error": "Could not send. Try again or use the email.",
+      "notConfigured": "Sending is unavailable right now. Please use the professional email."
     }
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The address you tried does not exist or has moved.",
+    "action": "Back to Home"
   }
 }
