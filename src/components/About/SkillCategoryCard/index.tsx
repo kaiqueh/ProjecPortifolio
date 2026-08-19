@@ -18,8 +18,8 @@ export function SkillCategoryCard({ category }: SkillCategoryCardProps) {
     <CardWrapper>
       <CategoryLabel>{localize(category.label)}</CategoryLabel>
       <SkillList>
-        {category.skills.map((skill) => (
-          <Tag key={skill.name} label={skill.name} icon={skill.icon} showIconSlot />
+        {category.skills.map((skill, index) => (
+          <Tag key={`${skill.name}-${index}`} label={skill.name} icon={skill.icon} showIconSlot />
         ))}
       </SkillList>
     </CardWrapper>
