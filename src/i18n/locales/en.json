@@ -1,5 +1,6 @@
 {
   "nav": {
+    "main": "Main navigation",
     "home": "Home",
     "about": "About",
     "projects": "Projects",
@@ -9,7 +10,8 @@
     "language": "Language",
     "switchToPt": "Switch to Portuguese",
     "switchToEn": "Switch to English",
-    "current": "Current page"
+    "current": "Current page",
+    "skipToContent": "Skip to content"
   },
   "sections": {
     "home": "01 — HOME",

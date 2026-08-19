@@ -1,5 +1,6 @@
 {
   "nav": {
+    "main": "Navegação principal",
     "home": "Home",
     "about": "Sobre mim",
     "projects": "Projetos",
@@ -9,7 +10,8 @@
     "language": "Idioma",
     "switchToPt": "Mudar para português",
     "switchToEn": "Mudar para inglês",
-    "current": "Página atual"
+    "current": "Página atual",
+    "skipToContent": "Pular para o conteúdo"
   },
   "sections": {
     "home": "01 — HOME",
