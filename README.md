@@ -1,32 +1,76 @@
-# React + TypeScript + Vite
+# Portfólio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Portfólio profissional em quatro páginas — Home, Sobre mim, Projetos e Contato — com
+detalhamento técnico de cada projeto, versão em português e inglês e formulário de contato.
 
-Currently, two official plugins are available:
+O visual segue uma linguagem editorial dark: tipografia de grande escala, halos de luz
+difusos, vidro aplicado de forma pontual e um grid modular que varia o tamanho dos cards.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Stack
 
-## React Compiler
+- **Vite** + **React** + **TypeScript**
+- **Styled Components** para estilos com escopo local e tema tipado
+- **React Router** para as rotas e o link direto de cada projeto
+- **react-i18next** para o conteúdo em português e inglês
+- **EmailJS** para o envio do formulário sem backend próprio
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Rodando o projeto
 
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```bash
+npm install
+npm run dev      # ambiente de desenvolvimento
+npm run build    # verificação de tipos + build de produção
+npm run preview  # serve o build localmente
+npm run lint     # oxlint
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Variáveis de ambiente
+
+O formulário de contato usa o EmailJS. Copie o `.env.example` para `.env` e preencha:
+
+```bash
+VITE_EMAILJS_SERVICE_ID=
+VITE_EMAILJS_TEMPLATE_ID=
+VITE_EMAILJS_PUBLIC_KEY=
+```
+
+Sem essas variáveis o site continua funcionando: o formulário valida os campos e avisa que o
+envio está indisponível, indicando o e-mail profissional como alternativa.
+
+O template do EmailJS recebe os campos `from_name`, `reply_to`, `subject` e `message`.
+
+## Atualizando o conteúdo
+
+Todo o conteúdo do site vive em **`src/data/portfolio-data.ts`**. Para adicionar uma
+experiência, uma competência ou um projeto, basta editar esse arquivo — nenhum componente ou
+estilo precisa ser tocado.
+
+Os textos são bilíngues e ficam lado a lado:
+
+```ts
+summary: {
+  pt: 'Descrição da atuação profissional.',
+  en: 'Description of the professional work.',
+},
+```
+
+Cada projeto cadastrado vira um card na listagem e uma página em `/projetos/:slug`. O campo
+`highlight` define o tamanho do card no grid: `large` (4 colunas), `wide` (3) ou `medium` (2).
+
+Currículo em PDF e imagens dos projetos ficam em `public/`, referenciados por caminho no
+arquivo de dados.
+
+## Rotas
+
+| Rota               | Página             |
+| ------------------ | ------------------ |
+| `/`                | Home               |
+| `/sobre`           | Sobre mim          |
+| `/projetos`        | Lista de projetos  |
+| `/projetos/:slug`  | Detalhe do projeto |
+| `/contato`         | Contato            |
+
+## Arquitetura
+
+A descrição completa da arquitetura, dos padrões adotados e da estrutura de diretórios está
+no arquivo `ARCHITECTURE.md`.

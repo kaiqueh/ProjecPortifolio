@@ -11,8 +11,10 @@ export const ToggleGroup = styled.div<{ $variant: 'compact' | 'expanded' }>`
 
 export const LanguageButton = styled.button<{ $active: boolean; $variant: 'compact' | 'expanded' }>`
   padding: ${({ $variant }) => ($variant === 'compact' ? '4px 6px' : '10px 18px')};
-  border: ${({ theme, $variant }) =>
-    $variant === 'expanded' ? `1px solid ${theme.colors.borderStrong}` : 'none'};
+  border: ${({ theme, $variant, $active }) => {
+    if ($variant !== 'expanded') return 'none';
+    return `1px solid ${$active ? theme.colors.accent : theme.colors.borderStrong}`;
+  }};
   border-radius: ${({ theme }) => theme.radii.pill};
   background: ${({ theme, $active, $variant }) => {
     if ($active) return $variant === 'compact' ? theme.colors.accent : theme.colors.surfaceHover;
